@@ -1,0 +1,10 @@
+run,fault,hc,mode,first_fail_lag_s,rto_probe_s,rto_write_s,availability_pct,failed_probes,failed_writes,max_ok_write_latency_s,lost_acked,committed_unack,min_healthy,capacity_restore_s,rto_target_s,rto_result,rpo_result,verdict,notes
+ec2-default-resilient-28071039,ec2,default,resilient,4.8,24.0,25.0,95.07,7,28,0.1,0,0,1,not_restored,60,PASS,PASS,PASS,
+ec2-tuned-resilient-28071329,ec2,tuned,resilient,4.0,6.0,9.0,96.69,5,8,0.3,0,0,1,95.8,60,PASS,PASS,PASS,
+ec2-default-resilient-28071707,ec2,default,resilient,2.6,21.0,22.0,93.66,9,20,0.2,0,0,1,not_restored,60,PASS,PASS,PASS,
+ec2-tuned-resilient-28071958,ec2,tuned,resilient,3.4,9.0,7.0,94.67,8,6,0.2,0,0,1,76.0,60,PASS,PASS,PASS,
+rds-tuned-naive-28092724,rds,tuned,naive,,0.0,20.5,100.0,0,40,0.2,0,0,2,0,120,PASS,PASS,PASS,
+rds-tuned-resilient-28093143,rds,tuned,resilient,,0.0,1.0,100.0,0,1,15.9,0,0,2,0,120,PASS,PASS,PASS,
+rds-tuned-naive-28093604,rds,tuned,naive,,0.0,15.0,100.0,0,30,0.2,0,0,2,0,120,PASS,PASS,PASS,
+rds-tuned-resilient-28094024,rds,tuned,resilient,35.2,1.0,0.0,99.59,1,0,16.0,0,0,2,0,120,PASS,PASS,PASS,
+compound-tuned-resilient-28095725,compound,tuned,resilient,4.5,13.0,13.0,97.67,7,13,17.9,0,0,1,113.6,probe 60 / write 180,PASS,PASS,PASS,

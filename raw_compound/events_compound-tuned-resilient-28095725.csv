@@ -1,0 +1,3 @@
+t,event,detail
+1793181462.860380193,rds_forced_failover,wc-db-subnet-group
+1793181464.975947028,ec2_terminate,i-0bddca5d6e3df43fc
