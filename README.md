@@ -1,4 +1,4 @@
-#the-wrecking-cloud
+## the-wrecking-cloud
 
 **High availability and disaster recovery on AWS, tested by breaking it on purpose.**
 
